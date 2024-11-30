@@ -1,0 +1,2 @@
+SELECT id, date, FLOOR(UNIX_TIMESTAMP(date)) AS timestamp
+FROM orders;
